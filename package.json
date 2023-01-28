@@ -24,10 +24,11 @@
     "@angular/core": "^12.0.0",
     "@angular/forms": "^12.0.0",
     "@angular/platform-browser": "^12.0.0",
+    "@aws-sdk/client-ec2": "^3.259.0",
     "@ng-bootstrap/ng-bootstrap": "^2.2.0",
+    "@types/node": "16.0.1",
     "@types/webpack-env": "^1.16.0",
     "apply-loader": "^2.0.0",
-    "clippyjs": "^0.0.3",
     "css-loader": "^5.1.1",
     "pug": "^2.0.3",
     "pug-loader": "^2.4.0",
@@ -35,12 +36,12 @@
     "sass": "^1.57.1",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
-    "tabby-core": "^1.0.156",
-    "tabby-settings": "^1.0.156",
-    "tabby-terminal": "^1.0.156",
-    "ts-loader": "^5.2.1",
-    "typescript": "^4.2.3",
-    "webpack": "^5.24.4",
-    "webpack-cli": "^4.5.0"
+    "tabby-core": "*",
+    "tabby-settings": "*",
+    "tabby-ssh": "1.0.187-nightly.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "~4.3.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
   }
 }

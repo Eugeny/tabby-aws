@@ -1,0 +1,33 @@
+
+h3 AWS
+
+.form-line
+    .header
+        .title(translate) AWS Region
+    input.form-control(
+        type='text',
+        [(ngModel)]='config.store.aws.region',
+        (ngModelChange)='config.save()'
+    )
+
+.form-line
+    .header
+        .title(translate) AWS Access Key ID
+    input.form-control(
+        type='text',
+        [(ngModel)]='config.store.aws.accessKeyId',
+        (ngModelChange)='config.save()'
+    )
+
+.form-line
+    .header
+        .title(translate) AWS Secret Access Key
+    input.form-control(
+        type='text',
+        [(ngModel)]='config.store.aws.secretAccessKey',
+        (ngModelChange)='config.save()'
+    )
+
+.alert.alert-info Set your AWS credentials.
+
+.alert.alert-success(*ngIf='connected') Connected
